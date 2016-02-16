@@ -16,6 +16,14 @@ set encoding=utf-8
 "set line no 
 set nu
 
+"Set the keymapping for autocomplete the brackets
+ino " ""<left>
+ino ' ''<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+ino {<CR> {<CR>}<ESC>O
+
 "Indentation based on the file types 
 " by default, the indent is 2 spaces. 
 set shiftwidth=2
